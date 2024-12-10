@@ -9,10 +9,17 @@
 **/.thumbs
 
 # No USD files allowed in the repo
-# **/*.usd
-# **/*.usda
-# **/*.usdc
-# **/*.usdz
+**/*.usd
+**/*.usda
+**/*.usdc
+**/*.usdz
+
+#allowing assets in robot folder
+!Robots/
+!Robots/**/*.usd
+!Robots/**/*.usda
+!Robots/**/*.usdc
+!Robots/**/*.usdz
 
 # Python
 .DS_Store
