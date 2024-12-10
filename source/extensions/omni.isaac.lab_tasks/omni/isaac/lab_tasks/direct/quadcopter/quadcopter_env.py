@@ -23,7 +23,8 @@ from omni.isaac.lab.utils.math import subtract_frame_transforms
 # Pre-defined configs
 ##
 from omni.isaac.lab_assets import CRAZYFLIE_CFG  # isort: skip
-from omni.isaac.lab.markers import CUBOID_MARKER_CFG  # isort: skip
+#from omni.isaac.lab.markers import CUBOID_MARKER_CFG  # isort: skip
+from omni.isaac.lab.markers.config import TREASURE_MARKER_CFG
 
 
 class QuadcopterEnvWindow(BaseEnvWindow):
@@ -234,8 +235,10 @@ class QuadcopterEnv(DirectRLEnv):
         # create markers if necessary for the first tome
         if debug_vis:
             if not hasattr(self, "goal_pos_visualizer"):
-                marker_cfg = CUBOID_MARKER_CFG.copy()
-                marker_cfg.markers["cuboid"].size = (0.05, 0.05, 0.05)
+                #marker_cfg = CUBOID_MARKER_CFG.copy()
+                marker_cfg = TREASURE_MARKER_CFG.copy()
+                #marker_cfg.markers["cuboid"].size = (0.05, 0.05, 0.05)
+                marker_cfg.markers["treasure"].size = (0.05, 0.05, 0.05)
                 # -- goal pose
                 marker_cfg.prim_path = "/Visuals/Command/goal_position"
                 self.goal_pos_visualizer = VisualizationMarkers(marker_cfg)
