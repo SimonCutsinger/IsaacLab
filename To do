@@ -1,0 +1,15 @@
+combine tasks of quadrocopter and humanoid to make human go to treasure chest (treasure_env is the base)
+- make multiple learning tasks
+  - walking
+  - stairs
+  - walls
+  - enemies
+- combine learning tasks
+
+connection between isaaclab and unity
+
+use unity playgrounds
+
+Enemies
+
+skin em
