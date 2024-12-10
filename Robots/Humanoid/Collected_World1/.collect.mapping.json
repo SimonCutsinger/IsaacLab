@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "file_records": [
+        {
+            "source_url": "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.2/Isaac/Environments/Grid/Materials/Textures/WireframeBlur_basecolor.png",
+            "source_hash": "4ce335eeb9901300d23b31839920bdef8a528acf",
+            "target_url": "./SubUSDs/textures/WireframeBlur_basecolor.png",
+            "target_hash": "20660b0aef7610b125203fb941ca60c8fdbf8715"
+        },
+        {
+            "source_url": "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.2/Isaac/Environments/Grid/Materials/Textures/WireframeBlur_blue.png",
+            "source_hash": "f72e1fb440d55b00a6ac5bfd055046299dc6f002",
+            "target_url": "./SubUSDs/textures/WireframeBlur_blue.png",
+            "target_hash": "55d84bd974a12cbdb8bce2c2fd95261fede58953"
+        },
+        {
+            "source_url": "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.2/Isaac/Environments/Grid/Materials/Textures/Wireframe_blue.png",
+            "source_hash": "fd857ed6fa5b865ce2d7f7c7b7c93811882dfef5",
+            "target_url": "./SubUSDs/textures/Wireframe_blue.png",
+            "target_hash": "64e7603e1f27d6046b304dec325754754ddb5556"
+        }
+    ]
+}

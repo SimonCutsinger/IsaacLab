@@ -98,8 +98,8 @@ GREEN_ARROW_X_MARKER_CFG = VisualizationMarkersCfg(
 TREASURE_MARKER_CFG = VisualizationMarkersCfg(
     markers={
         "treasure": sim_utils.UsdFileCfg(
-            usd_path=f"C:/Users/start/Documents/archer/Robots/Props/Treasure/basic_treasure_chect.usd",
-            #usd_path=f"../../../../../../../../../Robots/Props/Treasure/basic_treasure_chect.usd",
+            #usd_path=f"./Robots/Props/Treasure/basic_treasure_chest.usd",
+            usd_path=f"./Robots/Props/Treasure/basic_treasure_chest.usd",
             scale=(0.1, 0.1, 0.1),
             visual_material=sim_utils.PreviewSurfaceCfg(diffuse_color=(1.0, 0.84, 0.0)),
         )
