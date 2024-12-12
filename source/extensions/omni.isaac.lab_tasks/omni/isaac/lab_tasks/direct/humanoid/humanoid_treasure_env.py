@@ -15,7 +15,7 @@ from omni.isaac.lab.sim import SimulationCfg
 from omni.isaac.lab.terrains import TerrainImporterCfg
 from omni.isaac.lab.utils import configclass
 
-from omni.isaac.lab_tasks.direct.locomotion.locomotion_env import LocomotionEnv
+from omni.isaac.lab_tasks.direct.locomotion.treasure_locomotion_env import TreasureLocomotionEnv
 
 
 @configclass
@@ -88,7 +88,7 @@ class HumanoidTreasureCfg(DirectRLEnvCfg):
     contact_force_scale: float = 0.01
 
 
-class HumanoidTreasureEnv(LocomotionEnv):
+class HumanoidTreasureEnv(TreasureLocomotionEnv):
     cfg: HumanoidTreasureEnvCfg
 
     def __init__(self, cfg: HumanoidTreasureEnvCfg, render_mode: str | None = None, **kwargs):
