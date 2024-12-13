@@ -40,9 +40,12 @@ def scene():
     #cone creation and location
     cfg_red_cone.func("/World/Objects/Cone1", cfg_red_cone, translation=(0.5,-0.5,1.0))
     cfg_red_cone.func("/World/Objects/Cone2", cfg_red_cone, translation=(-0.5,0.5,1.0))
-    #porting and spawning usd file
-    tile_cfg = sim_utils.UsdFileCfg(usd_path=f"ArcherProject/Assets/Tiles/text_blocks.usd")
-    tile_cfg.func("/Wolrd/Objects/Tile", tile_cfg, translation=(0.0,0.0,0.1))
+    #porting
+    tile_cfg = sim_utils.UsdFileCfg(usd_path=f"ArcherProject/Assets/Tiles/test_blocks.usd")
+    #spawning
+    tile_cfg.func("/World/Objects/Tile", tile_cfg)
+    #transforming
+    
 
 def main():
  #initialize the simulation context
