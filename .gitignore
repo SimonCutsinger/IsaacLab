@@ -15,11 +15,11 @@
 **/*.usdz
 
 #allowing assets in robot folder
-!Robots/
-!Robots/**/*.usd
-!Robots/**/*.usda
-!Robots/**/*.usdc
-!Robots/**/*.usdz
+!ArcherProject/
+!ArcherProject/Assets/**/*.usd
+!ArcherProject/Assets/**/*.usda
+!ArcherProject/Assets/**/*.usdc
+!ArcherProject/Assets/**/*.usdz
 
 # Python
 .DS_Store
